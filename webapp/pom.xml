@@ -132,7 +132,11 @@
             <artifactId>oozie-sharelib-oozie</artifactId>
             <scope>compile</scope>
         </dependency>
-
+       <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
